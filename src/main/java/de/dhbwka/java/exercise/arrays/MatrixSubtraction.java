@@ -59,9 +59,22 @@ public class MatrixSubtraction {
         System.out.println("\n");
 
         //Subtraction of X and Y
-//        for(int i = 0; )
+        for(int i = 0; i<y; i++){
+            for(int j = 0; j<x; j++){
+                array3[i][j] = array1[i][j] - array2[i][j];
+            }
+        }
 
+        //Print array3
+        System.out.println("X-Y:");
+        for(int i = 0; i<y; i++){
+            for(int j = 0; j<x; j++){
 
+                System.out.printf("%3s", array3[i][j]);
+                System.out.print("  ");
+            }
+            System.out.println();
+        }
     }
 
 }

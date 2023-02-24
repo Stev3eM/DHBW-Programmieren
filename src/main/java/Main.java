@@ -1,11 +1,10 @@
-import de.dhbwka.java.exercise.arrays.DotProduct;
-import de.dhbwka.java.exercise.arrays.MatrixSubtraction;
+import de.dhbwka.java.exercise.classes.Point;
 
 public class Main {
     public static void main(String[] args) {
 
-        MatrixSubtraction.calculate();
-
+        Point myPoint = new Point(3,7);
+        System.out.println(myPoint.toString());
     }
 }
 
